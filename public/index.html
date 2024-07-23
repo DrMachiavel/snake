@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <div class="game" id="game">
+        <canvas id="gameCanvas" width="600" height="600"></canvas>
+        <div class="overlay" id="overlay">
+          <h1 id="highScoreMessage">Snake</h1>
+            <div class="groupedPlayKeys">
+              <div class="playKeyRow topPlayKeyRow">
+                <p id="keyZ" class="playKey topPlayKey">Z</p>
+              </div>
+              <div class="playKeyRow">
+                <p id="keyQ" class="playKey">Q</p>
+                <p id="keyS" class="playKey">S</p>
+                <p id="keyD" class="playKey">D</p>
+              </div>
+              <i><p class="touchInfo">(Or arrows & touch!)</p></i>
+            </div>
+          <h3>Chose level</h3>
+          <button id="slowButton">Slow</button>
+          <button id="normalButton">Normal</button>
+          <button id="fastButton">Fast</button>
+        </div>
+        <div>
+        <div id="scoreDisplay"></div>
+        <div id="highScore_1"></div>
+        <div id="highScore_2"></div>
+        <div id="highScore_3"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
