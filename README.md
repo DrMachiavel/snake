@@ -10,7 +10,7 @@ This is a Snake game implemented with JavaScript and HTML5 Canvas, inspired by t
 
 ## How to Play
 
-- Use the arrow keys on your keyboard to control the snake's direction.
+- Use the arrow keys on your keyboard to control the snake's direction or use ZSQD to move
 - Eat the fruit to grow and gain points.
 - Avoid colliding with the walls or the snake's own body.
 
